@@ -1,0 +1,22 @@
+#navegationBar{
+    width: 100vw;
+}
+
+.navbar-brand:hover{
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    background-color:#F9F9F9;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+  }
+
+@media (max-width: 991.98px) {
+    #navegationBar{
+        padding-right: 10rem;
+    }
+    .navbar-collapse.justify-content-center {
+      justify-content: center !important;
+    }
+  }
