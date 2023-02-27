@@ -82,7 +82,7 @@ function NavBar() {
               </ScrollLink>
             </li>
             <li class="nav-item">
-              <Link to="/trabaja-en-nire" class="nav-link text-dark">
+              <Link to="/Nire-Panaderia/trabaja-en-nire" class="nav-link text-dark">
                 Trabajá en Ñire
               </Link>
             </li>
