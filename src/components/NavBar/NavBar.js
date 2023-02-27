@@ -25,7 +25,7 @@ function NavBar() {
         <ScrollLink
           className="navbar-brand"
           smooth
-          to="slidePrincipal"
+          to="#slidePrincipal"
           onClick={handleClick}
         >
           <img
@@ -54,7 +54,7 @@ function NavBar() {
                 id="Nosotros"
                 class="nav-link active text-dark click"
                 smooth
-                to="Nosotros"
+                to="#Nosotros"
                 aria-current="page"
                 onClick={handleClick}
               >
@@ -65,7 +65,7 @@ function NavBar() {
               <ScrollLink
                 class="nav-link text-dark click"
                 smooth
-                to="Productos"
+                to="#Productos"
                 onClick={handleClick}
               >
                 Productos
@@ -75,7 +75,7 @@ function NavBar() {
               <ScrollLink
                 class="nav-link text-dark click"
                 smooth
-                to="DondeEstamos"
+                to="#DondeEstamos"
                 onClick={handleClick}
               >
                 Donde Estamos
