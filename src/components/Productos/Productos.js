@@ -11,10 +11,10 @@ function Productos() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ ease: "easeOut", duration: 2 }}
-        id="Productos"
         class="container text-center container-Productos"
+        id="Productos"
       >
-        <div class="row">
+        <div class="text-start row">
           <div class="col order-first">
             <section className="section-box">
               <h3>Productos</h3>

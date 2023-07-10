@@ -36,7 +36,7 @@ function Nosotros() {
         <div className="container-fluid">
           <div className="row max-auto justify-content-md-center ">
             <div className="col ms-md-auto mx-auto pb-5">
-              <div className="text-nosotros">
+              <div id="Nosotros" className="text-nosotros">
                 <h3>Nosotros</h3>
                 <h4>PAN DE MASA MADRE</h4>
                 <h5>Una Propuesta Diferente</h5>

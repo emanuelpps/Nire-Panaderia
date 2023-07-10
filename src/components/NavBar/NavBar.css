@@ -9,7 +9,8 @@
 .nav-link:hover {
     cursor: pointer;
     background-color:#F9F9F9;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 15px;
   }
 
 @media (max-width: 991.98px) {

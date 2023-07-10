@@ -3,7 +3,6 @@ import NavBar from './components/NavBar/NavBar';
 import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import './App.css';
-
 import TrabajaEnNire from "./pages/TrabajaEnNire/TrabajaEnNire";
 
 function App() {

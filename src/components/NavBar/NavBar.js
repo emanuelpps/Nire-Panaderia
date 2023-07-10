@@ -1,17 +1,10 @@
 import "./NavBar.css";
 import { Link } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function NavBar() {
-  const navigate = useNavigate();
-
-  const handleClick = (id) => {
-    scroll.scrollTo(id, { duration: 500 });
-    navigate("/");
-  };
   return (
     <nav
       id="navegationBar"
@@ -22,11 +15,10 @@ function NavBar() {
         transition={{ ease: "easeOut", duration: 2 }}
         className="container"
       >
-        <ScrollLink
+        <HashLink
           className="navbar-brand"
           smooth
           to="#slidePrincipal"
-          onClick={handleClick}
         >
           <img
             src="https://i.ibb.co/0yn5Ct1/nireLogo.png"
@@ -35,7 +27,7 @@ function NavBar() {
             height="40"
             class="d-inline-block align-text-top"
           />
-        </ScrollLink>
+        </HashLink>
         <button
           className="navbar-toggler mx-auto"
           type="button"
@@ -50,41 +42,32 @@ function NavBar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="nav mx-auto">
             <li class="nav-item">
-              <ScrollLink
-                id="Nosotros"
-                class="nav-link active text-dark click"
+              <HashLink
                 smooth
                 to="#Nosotros"
+                class="nav-link active text-dark click"
                 aria-current="page"
-                onClick={handleClick}
               >
                 Nosotros
-              </ScrollLink>
+              </HashLink>
             </li>
             <li class="nav-item">
-              <ScrollLink
+              <HashLink
                 class="nav-link text-dark click"
                 smooth
                 to="#Productos"
-                onClick={handleClick}
               >
                 Productos
-              </ScrollLink>
+              </HashLink>
             </li>
             <li class="nav-item">
-              <ScrollLink
+              <HashLink
                 class="nav-link text-dark click"
                 smooth
                 to="#DondeEstamos"
-                onClick={handleClick}
               >
                 Donde Estamos
-              </ScrollLink>
-            </li>
-            <li class="nav-item">
-              <Link to="/Nire-Panaderia/trabaja-en-nire" class="nav-link text-dark">
-                Trabajá en Ñire
-              </Link>
+              </HashLink>
             </li>
           </ul>
         </div>
