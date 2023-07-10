@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Nire-Panaderia/static/css/main.2b5f3e0d.css",
-    "main.js": "/Nire-Panaderia/static/js/main.8957e7d0.js",
+    "main.css": "/Nire-Panaderia/static/css/main.10b510b9.css",
+    "main.js": "/Nire-Panaderia/static/js/main.5ef959d2.js",
     "index.html": "/Nire-Panaderia/index.html",
-    "main.2b5f3e0d.css.map": "/Nire-Panaderia/static/css/main.2b5f3e0d.css.map",
-    "main.8957e7d0.js.map": "/Nire-Panaderia/static/js/main.8957e7d0.js.map"
+    "main.10b510b9.css.map": "/Nire-Panaderia/static/css/main.10b510b9.css.map",
+    "main.5ef959d2.js.map": "/Nire-Panaderia/static/js/main.5ef959d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b5f3e0d.css",
-    "static/js/main.8957e7d0.js"
+    "static/css/main.10b510b9.css",
+    "static/js/main.5ef959d2.js"
   ]
 }
