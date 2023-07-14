@@ -6,7 +6,7 @@ function Footer() {
           <li className="nav-item"><a href="#Productos" className="nav-link px-2 text-dark">Productos</a></li>
           <li className="nav-item"><a href="#DondeEstamos" className="nav-link px-2 text-dark">Donde Estamos</a></li>
         </ul>
-        <p class="text-center text-dark">© 2023 <a className='text-dark' href="https://github.com/emanuelpps">Emanuel Pagés</a></p>
+        <p class="text-center text-dark">© 2023 <a className='text-dark' href="https://emanuelpps.github.io/">Emanuel Pagés</a></p>
       </footer>
     );
   }
